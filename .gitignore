@@ -1,0 +1,39 @@
+# Compiled output / Build artifacts (if any are created beyond the image itself)
+/build/
+/dist/
+/out/
+/target/
+
+# Docker specific temporary files / images saved locally
+*.tar           # Docker image archives (docker save)
+*.tar.gz        # Gzipped Docker image archives
+*.zip           # Zipped Docker image archives
+*.dockerignore.bak # Temp files if .dockerignore is modified
+
+# Logs
+*.log
+log/
+logs/
+
+# Operating System Files
+.DS_Store       # macOS folder metadata
+Thumbs.db       # Windows thumbnail cache
+ehthumbs.db     # Windows thumbnail cache for media
+Desktop.ini     # Windows folder customization
+.localized      # macOS localization marker
+
+# Editor / IDE specific files
+.vscode/        # VS Code settings, tasks, etc. (unless shared config)
+.idea/          # IntelliJ IDEA and other JetBrains IDEs
+*.sublime-project
+*.sublime-workspace
+.project        # Eclipse
+.classpath      # Eclipse
+.settings/      # Eclipse
+*.swp           # Vim swap files
+*.swo           # Vim swap files
+
+# Temporary files from various operations
+*~              # Backup files from some text editors
+*.bak           # General backup files
+*.tmp           # General temporary files
